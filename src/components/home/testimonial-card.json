@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_home_testimonial_cards",
+  "info": {
+    "displayName": "testimonial-card"
+  },
+  "options": {},
+  "attributes": {
+    "authorName": {
+      "type": "string"
+    },
+    "authorFrom": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "authorImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

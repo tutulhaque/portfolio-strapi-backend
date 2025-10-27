@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_home_experience_cards",
+  "info": {
+    "displayName": "experience-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "experience_icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

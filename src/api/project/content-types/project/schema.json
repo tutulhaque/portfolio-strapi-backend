@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "Project"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "project_banner_title": {
+      "type": "string"
+    },
+    "project_banner_description": {
+      "type": "text"
+    },
+    "project_banner_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "project_card": {
+      "type": "component",
+      "component": "home.project-card",
+      "repeatable": true
+    }
+  }
+}
